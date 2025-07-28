@@ -11,62 +11,66 @@
 
 <!-- Navbar -->
 <header class="border-bottom bg-white py-3">
-  <div class="container d-flex justify-content-between align-items-center">
-    <li><a href="index.html" class="text-decoration-none text-dark fw-bold">Guy Van Oers</a></li>
-    <li><a href="contact.html" class="text-decoration-none text-dark">Contact</a></li>
+  <div class="container-asym d-flex justify-content-between align-items-center">
+    <a href="index.html" class="text-decoration-none text-dark fw-bold">Guy Van Oers</a>
+    <a href="contact.html" class="text-decoration-none text-dark">Contact</a>
   </div>
 </header>
 
 <!-- Hero Section -->
-<div class="container py-5">
+<div class="container-asym hero-section py-5">
   <div class="row">
     <div class="col-12">
       <img src="assets/artwork_1.jpg" alt="Pastorales" class="img-fluid w-100 mb-3">
     </div>
-    <div class="container hero-info">
     <div class="row">
-    <div class="col-lg-6 offset-lg-6 text-end">
-      <h2 class="hero-title">Disturbed Movemen, 2023</h2>
-      <p class="hero-subtext">Acrylic on canvas - Signed and dated on the back</p>
-      <p class="hero-subtext">59,5 x 72,5 cm</p>
+      <div class="col-lg-6 offset-lg-6 text-end">
+        <h2 class="hero-title">Disturbed Movement, 2023</h2>
+        <p class="hero-subtext">Acrylic on canvas - Signed and dated on the back</p>
+        <p class="hero-subtext">59,5 x 72,5 cm</p>
+      </div>
     </div>
-    </div>
-    </div>
-    <!--About section-->
-    <div class="row">
-    <div class="col-lg-6 offset-lg-6">
-      <h3 class="about-title" style="font-size: 1rem; font-weight: 500;">About /</h3>
-      <p style="font-size: 0.9rem; line-height: 1.6;">
-          Guy Van Oers is a self-taught artist whose abstract paintings are driven by emotion and intuition. 
-          Working mainly with acrylic on canvas, he creates dynamic compositions full of movement, texture, 
-          and layered color. His work explores themes like motion, disruption, and reduced reality—inviting 
-          viewers to feel rather than interpret.
-        </p>
-    </div>
-    </div>
-  </div>
- <!-- Gallery Section -->
-<div class="container-fluid px-0 gallery">
-  <div class="gallery-column">
-    <img src="assets/artwork_2.jpg" alt="Artwork 1">
-    <img src="assets/artwork_3.jpg" alt="Artwork 3">
-  </div>
-  <div class="gallery-column">
-    <img src="assets/artwork_3.jpg" alt="Artwork 2">
-    <img src="assets/artwork_2.jpg" alt="Artwork 2">
   </div>
 </div>
-<!-- Footer -->
-<footer class="footer-bar">
-  <div class="container-fluid px-4 px-lg-5">
-    <div class="d-flex justify-content-between align-items-center flex-wrap small">
-      <div>© Guy Van Oers</div>
-      <div><a href="https://www.instagram.com/guyvanoers/" target="_blank" class="footer-link">@guyvanoers</a></div>
-      <div><a href="mailto:email@example.com" class="footer-link">email@example.com</a></div>
+
+<!-- About Section -->
+<div class="about-section container-asym mb-5">
+  <h3 class="about-title">About /</h3>
+  <p class="about-text">
+    Guy Van Oers is a self-taught artist whose abstract paintings are driven by emotion and intuition. 
+    Working mainly with acrylic on canvas, he creates dynamic compositions full of movement, texture, 
+    and layered color. His work explores themes like motion, disruption, and reduced reality—inviting 
+    viewers to feel rather than interpret.
+  </p>
+</div>
+
+<!-- Gallery Section -->
+<div class="container gallery-container container-asym mb-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <a href="detail_1.html"><img src="assets/artwork_1.jpg" class="img-fluid" alt="Artwork 1"></a>
+      <a href="detail_1.html"><img src="assets/artwork_3.jpg" class="img-fluid mt-3" alt="Artwork 2"></a>
     </div>
+    <div class="col-md-4">
+      <a href="detail_1.html"><img src="assets/artwork_3.jpg" class="img-fluid" alt="Artwork 3"></a>
+      <a href="detail_1.html"><img src="assets/artwork_2.jpg" class="img-fluid mt-3" alt="Artwork 4"></a>
+    </div>
+     <div class="col-md-4">
+      <a href="detail_1.html"><img src="assets/artwork_1.jpg" class="img-fluid" alt="Artwork 3"></a>
+      <a href="detail_1.html"><img src="assets/artwork_2.jpg" class="img-fluid mt-3" alt="Artwork 4"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer-bar py-4 border-top">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap small">
+    <div>© Guy Van Oers</div>
+    <div><a href="https://www.instagram.com/guyvanoers/" target="_blank" class="footer-link">@guyvanoers</a></div>
+    <div><a href="mailto:email@example.com" class="footer-link">email@example.com</a></div>
   </div>
 </footer>
-</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
