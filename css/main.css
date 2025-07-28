@@ -4,7 +4,9 @@ body {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-
+li {
+    list-style-type:none;
+}
 /* HERO IMAGE */
 .hero-info {
   margin-top: -12px;
@@ -53,4 +55,59 @@ h2, h3 {
   text-align: left;
   font-size: 0.9rem;
   line-height: 1.6;
+}
+/* WORK */ 
+.gallery {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 60px 24px;
+}
+
+.gallery-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.gallery-column img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
+/* footer */
+.footer-bar {
+  padding: 40px 0;
+  font-size: 0.85rem;
+  background-color: #f8f9fa;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* info */
+.contact-content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
 }
