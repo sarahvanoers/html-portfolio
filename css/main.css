@@ -8,7 +8,13 @@ body {
   max-width: 1200px; /* kies zelf: bv. 1000px voor smaller, 1400px voor breder */
   margin: 0 auto;
 }
-
+.painting-detail {
+  max-width: 900px;   /* stel in op bv. 700px, 800px of 900px */
+  width: 100%;        /* responsief schalen */
+  height: auto;
+  margin: 0 auto;     /* centreert binnen de container */
+  display: block;
+}
 
 @media (max-width: 768px) {
   .container-asym {
