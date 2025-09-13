@@ -114,6 +114,15 @@ a:hover {
     flex-direction: column;
   }
 }
+.linkProject {
+  text-decoration: none !important;
+  transition: color 0.2s ease-in-out;
+  font-size: 0.85rem;
+  color: inherit;
+}
+a {
+  text-decoration: none!important;
+}
 /* Footer */
 .footer-bar {
   font-size: 0.85rem;
